@@ -1,0 +1,19 @@
+2025-07-02 18:21:06,748 - __main__ - INFO - Internal Audit Automation System starting...
+2025-07-02 18:21:08,054 - __main__ - INFO - Initializing database...
+2025-07-02 18:21:08,243 - __main__ - INFO - Database initialized successfully. Current stats: {'total_audits': 0, 'active_audits': 0, 'completed_audits': 0, 'planned_audits': 0, 'total_findings': 0, 'open_findings': 0, 'high_risk_findings': 0, 'critical_findings': 0, 'risk_distribution': {'Low': 0, 'Medium': 0, 'High': 0}, 'department_stats': {}}
+2025-07-02 18:21:08,251 - __main__ - INFO - Creating sample data...
+2025-07-02 18:21:08,323 - __main__ - INFO - Sample data created successfully.
+2025-07-02 18:21:08,324 - __main__ - ERROR - Application startup failed: InternalAuditSystem.__init__() takes 1 positional argument but 2 were given
+2025-07-02 18:21:08,325 - __main__ - ERROR - Traceback (most recent call last):
+  File "K:\learnbydoingwithsteven\workflow_simulations\internal_audit_automation\main.py", line 327, in run
+    self.main_window = InternalAuditSystem(self.database)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InternalAuditSystem.__init__() takes 1 positional argument but 2 were given
+
+2025-07-02 18:33:14,273 - __main__ - INFO - Database connection closed.
+2025-07-02 18:33:14,274 - __main__ - INFO - Application shutdown complete.
+2025-07-02 19:33:55,090 - __main__ - INFO - Internal Audit Automation System starting...
+2025-07-02 19:33:56,430 - __main__ - INFO - Initializing database...
+2025-07-02 19:33:56,651 - __main__ - INFO - Database initialized successfully. Current stats: {'total_audits': 4, 'active_audits': 1, 'completed_audits': 1, 'planned_audits': 2, 'total_findings': 3, 'open_findings': 2, 'high_risk_findings': 1, 'critical_findings': 1, 'risk_distribution': {'Low': 0, 'Medium': 2, 'High': 2}, 'department_stats': {'Finance': 1, 'Information Technology': 1, 'Operations': 1, 'Human Resources': 1}}
+2025-07-02 19:33:56,665 - __main__ - INFO - Sample data already exists, skipping creation.
+2025-07-02 19:33:58,018 - __main__ - INFO - Application started successfully.

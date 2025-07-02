@@ -1,0 +1,43 @@
+# Internal Audit Automation System Requirements
+# Core GUI Framework
+PyQt6>=6.4.0
+
+# Database and ORM
+SQLAlchemy>=2.0.0
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date and Time Handling
+python-dateutil>=2.8.0
+
+# Logging and Configuration
+pyyaml>=6.0
+
+# File Handling
+openpyxl>=3.1.0  # For Excel file support
+Pillow>=10.0.0   # For image handling
+
+# Reporting and Documentation
+reportlab>=4.0.0  # For PDF generation
+jinja2>=3.1.0     # For template rendering
+
+# Data Validation
+cerberus>=1.3.0
+
+# Utilities
+requests>=2.31.0
+psutil>=5.9.0     # For system monitoring
+
+# Development and Testing (optional)
+pytest>=7.4.0
+pytest-qt>=4.2.0
+black>=23.0.0     # Code formatting
+flake8>=6.0.0     # Code linting
+
+# Additional Security
+cryptography>=41.0.0
+
+# Progress Bars and UI Enhancements
+tqdm>=4.65.0
